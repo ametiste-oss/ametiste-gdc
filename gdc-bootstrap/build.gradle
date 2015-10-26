@@ -1,0 +1,12 @@
+description = 'GDC Bootstrapers Module'
+
+apply from: "https://raw.githubusercontent.com/ametiste-oss/ametiste-bintray-gradle/master/bintray.gradle"
+
+dependencies {
+    compile project(':gdc-data')
+    compile project(':gdc-graphite-provider')
+
+    compile libraries.slf4j
+
+    testCompile libraries.junit
+}

@@ -1,0 +1,5 @@
+rootProject.name = 'ametiste-gdc'
+
+include 'gdc-data'
+include 'gdc-graphite-provider'
+include 'gdc-bootstrap'

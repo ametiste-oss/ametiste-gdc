@@ -1,0 +1,17 @@
+ext {
+    apacheHttpComponentsVersion = '4.4.1'
+    commonLang3Version = '3.4'
+    gsonVersion = '2.3.1'
+    slf4jVersion = '1.7.12'
+    junitVersion = '4.12'
+    mockitoVersion = '1.9.5'
+
+    libraries = [
+            apacheHttpComponents    : "org.apache.httpcomponents:httpclient:${apacheHttpComponentsVersion}",
+            commonLang3             : "org.apache.commons:commons-lang3:${commonLang3Version}",
+            gson                    : "com.google.code.gson:gson:${gsonVersion}",
+            mockito                 : "org.mockito:mockito-core:${mockitoVersion}",
+            slf4j                   : "org.slf4j:slf4j-api:${slf4jVersion}",
+            junit                   : "junit:junit:${junitVersion}"
+    ]
+}

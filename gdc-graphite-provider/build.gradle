@@ -1,0 +1,14 @@
+description = 'GDC Graphite Provider Module'
+
+apply from: "https://raw.githubusercontent.com/ametiste-oss/ametiste-bintray-gradle/master/bintray.gradle"
+
+dependencies {
+    compile project(':gdc-data')
+
+    compile libraries.apacheHttpComponents,
+            libraries.commonLang3,
+            libraries.gson
+
+    testCompile libraries.junit,
+            libraries.mockito
+}

@@ -1,0 +1,10 @@
+description = 'GDC Data Models'
+
+apply from: "https://raw.githubusercontent.com/ametiste-oss/ametiste-bintray-gradle/master/bintray.gradle"
+
+dependencies {
+    compile libraries.commonLang3,
+            libraries.gson
+
+    testCompile libraries.junit
+}
